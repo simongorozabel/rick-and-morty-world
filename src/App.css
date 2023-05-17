@@ -1,0 +1,113 @@
+header {
+  color: greenyellow;
+  font-size: 60px;
+  margin: 20px;
+}
+.location__card {
+  background-color: #062226;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 890px;
+  height: 126px;
+  gap: 40px;
+  padding: 20px;
+  border-radius: 5px;
+
+  transition: 0.25s;
+}
+.location__card:hover {
+  transform: scale(1.02);
+}
+.form__container {
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form__container input {
+  width: 220px;
+  height: 50px;
+  color: #062226;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 15px;
+}
+.form__container button {
+  background-color: #062226;
+  color: aliceblue;
+  width: 220px;
+  height: 40px;
+  border: transparent;
+  border-radius: 20px;
+  font-size: 20px;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+.form__container button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 10px 5px grey;
+}
+main {
+  width: 890px;
+  margin: 10px 0;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.resident__card {
+  width: 300px;
+  max-height: 560px;
+
+  border-radius: 10px;
+
+  background-color: #062226;
+
+  transition: 0.25s;
+}
+.resident__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 100px 1px gray;
+}
+.resident__card div p {
+  position: absolute;
+  background-color: #062226;
+  width: 130px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-top: 10px;
+  padding: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.resident__card div img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.resident__card h3 {
+  padding: 10px 10px;
+  font-size: 25px;
+}
+.resident__card ul {
+  padding: 10px;
+  list-style: none;
+}
+.resident__card ul li b {
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.resident__card ul li p {
+  padding: 3px;
+  margin: 4px;
+  box-shadow: 0 0 1px 1px gray;
+}

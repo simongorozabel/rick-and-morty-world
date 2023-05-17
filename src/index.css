@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Get Schwifty";
+  src: url("./assets/fonts/get_schwifty.ttf"), format("woff2"),
+    url("./assets/fonts/get_schwifty.ttf"), format("woff");
+  font-weight: normal;
+  font-size: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  background-color: #e5e5e5;
+  color: bisque;
+  font-family: "Get Schwifty";
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
